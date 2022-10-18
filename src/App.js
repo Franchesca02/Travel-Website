@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousels from './Components/Carousels';
 import Destinations from './Components/Destinations';
+import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
 import Search from './Components/Search';
@@ -15,6 +16,7 @@ function App() {
      <Search />
      <Selects />
      <Carousels />
+     <Footer />
     </div>
   );
 }
